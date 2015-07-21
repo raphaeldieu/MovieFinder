@@ -1,0 +1,25 @@
+
+#search{
+	text-align: center;
+	background-color: lightgrey;
+	padding-bottom: 50px;
+}
+#user_input{
+	padding:10px 20px;
+	font-size: 20px;
+	text-align: center;
+}
+#results{
+	padding-top: 30px;
+}
+#details_movie{
+
+}
+tbody td{
+	padding:10px;
+	min-width: 40px;
+}
+.head_row{
+	font-size: 15px;
+	color:darkblue;
+}

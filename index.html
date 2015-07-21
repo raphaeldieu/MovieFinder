@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Ajax Get</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<section id="search">
+		<div class="row">
+			<div class="col-xs-12">
+				<h1>Awesome Movie Finder</h1>
+				<input id="user_input" type="text" placeholder="Enter the title here and hit Enter !" size="100"></input>
+			</div>
+		</div>
+	</section>
+
+	<section class="container" id="results">
+		<div class="row">
+			<div class="col-xs-4" id="movie_poster">
+
+			</div>
+			<div class="col-xs-8" id="details_movie">
+				<table>
+					<tbody>
+						<tr>
+							<td class="head_row">Title :</td>
+							<td id="title"></td>
+						</tr>
+						<tr>
+							<td class="head_row">Director :</td>
+							<td id="director"></td>
+						</tr>
+						<tr>
+							<td class="head_row">Actors :</td>
+							<td id="actors"></td>
+						</tr>
+						<tr>
+							<td class="head_row">Release Date :</td>
+							<td id="released_date"></td>
+						</tr>
+						<tr>
+							<td class="head_row">Awards :</td>
+							<td id="awards"></td>
+						</tr>
+						<tr>
+							<td class="head_row">Country :</td>
+							<td id="country"></td>
+						</tr>
+						<tr>
+							<td class="head_row">Genre :</td>
+							<td id="genre"></td>
+						</tr>
+						<tr>
+							<td class="head_row">Language :</td>
+							<td id="language"></td>
+						</tr>
+						<tr>
+							<td class="head_row">Runtime :</td>
+							<td id="runtime"></td>
+						</tr>
+						<tr>
+							<td class="head_row">Plot :</td>
+							<td id="plot"></td>
+						</tr>
+						<tr>
+							<td class="head_row">Writer :</td>
+							<td id="writer"></td>
+						</tr>
+						<tr>
+							<td class="head_row">Imdb Rating :</td>
+							<td id="imdb_rating"></td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
+	</section>
+<script src="bower_components/jquery/dist/jquery.min.js"></script>
+	<script type="text/javascript" src="js/application.js"></script>
+</body>
+</html>
